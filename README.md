@@ -1,6 +1,4 @@
-Datetime: 2025-08-18
-
-# Raspberry Pi OS (64-bit)
+# 2025-08-18: Raspberry Pi OS (64-bit)
 
 ## Raspberry Pi OS Lite
 
