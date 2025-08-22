@@ -1,4 +1,4 @@
-# Add SSH key để truy cập vào máy vừa cài đặt
+# 1. Add SSH key vào máy vừa cài đặt
 
 ```
 ~ ssh-copy-id vannghia@10.0.0.82
@@ -15,8 +15,16 @@ Now try logging into the machine, with: "ssh 'vannghia@10.0.0.82'"
 and check to make sure that only the key(s) you wanted were added.
 ```
 
-# Cập nhật package manager
+# 2. Cập nhật package manager
 
 ```
 apt update
+```
+
+# 3. Gán quyền sudo cho user quản trị viên (non-root)
+
+```
+~ su # switch to root user
+~ apt update && apt install sudo
+~ sudo usermod -aG sudo vannghia
 ```
