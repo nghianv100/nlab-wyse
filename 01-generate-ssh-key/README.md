@@ -27,4 +27,6 @@ apt update
 ~ su # switch to root user
 ~ apt update && apt install sudo
 ~ sudo usermod -aG sudo vannghia
+~ groups vannghia # Verify the account has been added to sudo group
+vannghia : vannghia cdrom floppy sudo audio dip video plugdev users netdev
 ```
