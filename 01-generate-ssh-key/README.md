@@ -15,13 +15,7 @@ Now try logging into the machine, with: "ssh 'vannghia@10.0.0.82'"
 and check to make sure that only the key(s) you wanted were added.
 ```
 
-# 2. Cập nhật package manager
-
-```
-apt update
-```
-
-# 3. Gán quyền sudo cho user quản trị viên (non-root)
+# 2. Gán quyền sudo cho user quản trị viên (non-root)
 
 ```
 ~ su # switch to root user
