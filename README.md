@@ -1,4 +1,4 @@
-# 1. Generate SSH Key
+# Generate SSH Key
 
 ## Add SSH key vào máy vừa cài đặt
 
