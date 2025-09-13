@@ -1,0 +1,13 @@
+---
+# Install zsh, curl, wget, and lm-sensors (or lm_sensors) depending on OS family
+
+- name: Install base packages on Debian/Ubuntu
+  ansible.builtin.apt:
+    name:
+      - zsh
+      - curl
+      - wget
+      - lm-sensors
+    state: present
+    update_cache: yes
+  when: ansible_facts['os_family'] == 'Debian'
